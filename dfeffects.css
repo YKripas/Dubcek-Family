@@ -23,9 +23,13 @@ nav#familyLinks img:hover{
     opacity: 0.8;
 }
 article{
-    background: -o-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
-    background: -ms-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
-    background: -moz-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
-    background: -webkit-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
+    background: -o-linear-gradient(left right, rgb(151,151,151),rgb(231,231,231));
+    background: -ms-linear-gradient(left right, rgb(151,151,151),rgb(231,231,231));
+    background: -moz-linear-gradient(left right, rgb(151,151,151),rgb(231,231,231));
+    background: -webkit-linear-gradient(left right, rgb(151,151,151),rgb(231,231,231));
     background: linear-gradient(rgb(151,151,151), rgb(231,231,231));
 }
+h1{
+   text-shadow: black 1px 1px 0px, rgba(30,57,0,0.8) 5px 5px 10px; 
+}
+
