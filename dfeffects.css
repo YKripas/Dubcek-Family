@@ -22,3 +22,10 @@ nav#familyLinks img:hover{
     transform: rotate(-5deg);
     opacity: 0.8;
 }
+article{
+    background: -o-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
+    background: -ms-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
+    background: -moz-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
+    background: -webkit-linear-gradient(left right, rgb(151,151,151) rgb(231,231,231));
+    background: linear-gradient(rgb(151,151,151), rgb(231,231,231));
+}
