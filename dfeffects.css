@@ -12,4 +12,6 @@
 
 */
 
-
+nav#familyLinks{
+    box-shadow: inset rgba(0,0,0,0.6) -10px 0px 15px;
+}
