@@ -18,3 +18,7 @@ nav#familyLinks{
 nav#familyLinks img{
     box-shadow: rgba(0,0,0,0.6) 10px 10px 15px;
 }
+nav#familyLinks img:hover{
+    transform: rotate(-5deg);
+    opacity: 0.8;
+}
