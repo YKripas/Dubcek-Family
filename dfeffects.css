@@ -33,5 +33,6 @@ h1{
    text-shadow: black 1px 1px 0px, rgba(30,57,0,0.8) 5px 5px 10px; 
 }
 article img{
-    
+    border-image: url(paper.png) 70 repeat;
+    border-width: 10px;
 }
