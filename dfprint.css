@@ -12,7 +12,11 @@
 
 */
 
-
+@page{
+    size: 8.5in 11in portrait;
+    margin: 0.5in;
+    
+}
 /* Hide page elements that will not be printed */
 
 header, header nav.horizontal, section#page nav.horizontal, footer {
@@ -47,7 +51,11 @@ nav#familyLinks li span {
    font-size: 16pt;
    margin-left: 0.5in;
 }
-
+/*Avoiding a page break within #article & adding a page break after the #article*/
+article{
+    page-break-inside: avoid;
+    page-break-after: always;
+}
 
 
 
