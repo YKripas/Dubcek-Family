@@ -56,7 +56,10 @@ article{
     page-break-inside: avoid;
     page-break-after: always;
 }
-
+nav#familyLinks li{
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
 
 
 /* Setting the page breaks in the document */
